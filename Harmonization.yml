@@ -1,0 +1,99 @@
+!!org.obiba.opal.core.domain.taxonomy.Taxonomy
+"name": "Mlstr_harmo"
+"title":
+  "fr": "Harmonisation"
+  "en": "Harmonization"
+"description":
+  "fr": "Qualification de l'harmonisation par Maelstrom"
+  "en": "Harmonization qualification by Maelstrom"
+"author": "Maelstrom Research"
+"license": "CC BY-NC-ND 4.0"
+"vocabularies":
+- "name": "status"
+  "title":
+    "fr": "Statut d'harmonisation"
+    "en": "Harmonization Status"
+  "description":
+    "fr": "Statut d'harmonisation"
+    "en": "Harmonization Status"
+  "terms":
+  - "name": "complete"
+    "title":
+      "fr": "Complet"
+      "en": "Complete"
+    "description":
+      "fr": "Le statut d'harmonisation est complet."
+      "en": "Harmonization status is complete."
+  - "name": "undetermined"
+    "title":
+      "fr": "Indéterminé"
+      "en": "Undetermined"
+    "description":
+      "fr": "Le statut d'harmonisation est indéterminé (en attente d'information)."
+      "en": "Harmonization status is undetermined (information pending)."
+  - "name": "impossible"
+    "title":
+      "fr": "Impossible"
+      "en": "Impossible"
+    "description":
+      "fr": "Le statut d'harmonisation est impossible."
+      "en": "Harmonization status is impossible."
+- "name": "status_detail"
+  "title":
+    "fr": "Détail du statut"
+    "en": "Status Detail"
+  "description":
+    "fr": "Sous-statut d'harmonisation"
+    "en": "Harmonization sub-status"
+  "terms":
+  - "name": "identical"
+    "title":
+      "fr": "Identique"
+      "en": "Identical"
+    "description":
+      "fr": "Le sous-statut d’harmonisation est qualifié d’information identique."
+      "en": "Harmonization sub-status is qualified as identical information."
+  - "name": "unidentical"
+    "title":
+      "fr": "Non identique"
+      "en": "Unidentical"
+    "description":
+      "fr": "Le sous-statut d’harmonisation est qualifié d’information non identique."
+      "en": "Harmonization sub-status is qualified as unidentical information."
+  - "name": "incompatible"
+    "title":
+      "fr": "Non compatible"
+      "en": "Incompatible"
+    "description":
+      "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
+        \    compatible."
+      "en": "Harmonization sub-status is qualified as incompatible information."
+  - "name": "unavailable"
+    "title":
+      "fr": "Non disponible"
+      "en": "Unavailable"
+    "description":
+      "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
+        \     disponible."
+      "en": "Harmonization sub-status is qualified as unavailable information."
+  - "name": "undetermined"
+    "title":
+      "en": "Undetermined"
+      "fr": "Indéterminé"
+    "description":
+      "en": "Harmonization sub-status is qualified as undetermined."
+      "fr": "Le sous-statut d’harmonisation est qualifié d’indéterminé."
+- "name": "comment"
+  "title":
+    "fr": "Commentaire"
+    "en": "Comment"
+  "description":
+    "fr": "Information supplémentaire à propos de la variable harmonisée."
+    "en": "Additional information about the harmonized variable."
+- "name": "algorithm"
+  "title":
+    "fr": "Algorithme"
+    "en": "Algorithm"
+  "description":
+    "fr": "Algorithme utilisé pour générer la variable harmonisée."
+    "en": "Algorithm used to generate the harmonized variable."

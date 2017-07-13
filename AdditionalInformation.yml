@@ -1,0 +1,162 @@
+!!org.obiba.opal.core.domain.taxonomy.Taxonomy
+"name": "Mlstr_additional"
+"title":
+  "en": "Additional information"
+  "fr": "Informations additionnelles"
+"description":
+  "en": "Additional information about the collected variable"
+  "fr": "Informations additionnelles au sujet des variables collectées"
+"author": "Maelstrom Research"
+"license": "CC BY-NC-ND 4.0"
+"vocabularies":
+- "name": "Source"
+  "title":
+    "en": "Source"
+    "fr": "Source"
+  "description":
+    "en": "Source refers to the original document/method of data collection."
+    "fr": "Source réfère au document ou à la méthode originale de la collecte de données."
+  "terms":
+  - "name": "Questionnaire"
+    "title":
+      "en": "Questionnaire"
+      "fr": "Questionnaire"
+    "description":
+      "en": "Information was collected in a questionnaire, either self-administrated\
+        \ or administrated by an interviewer."
+      "fr": "L'information était collectée par questionnaire, soit auto-administré\
+        , soit administré par un intervieweur."
+  - "name": "Physical_measure"
+    "title":
+      "en": "Physical measure"
+      "fr": "Mesure physique"
+    "description":
+      "en": "Information was measured rather than reported by the participant. It\
+        \ can appear in the questionnaire but it needs to have a clear indication\
+        \ that it was measured to appear in this category."
+      "fr": "L'information était mesurée plutôt que rapportée par le participant.\
+        \ Elle peut apparaître dans un questionnaire mais il faut une indication claire\
+        \ qu'elle provient d'une mesure physique pour apparaître dans cette catégorie."
+  - "name": "Cognitive_measure"
+    "title":
+      "en": "Cognitive measure"
+      "fr": "Mesure cognitive"
+    "description":
+      "en": "Information was measured rather than reported by the participant. It\
+        \ can appear in the questionnaire but it needs to have a clear indication\
+        \ that it was measured to appear in this category."
+      "fr": "L'information était mesurée plutôt que rapportée par le participant.\
+        \ Elle peut apparaître dans un questionnaire mais il faut une indication claire\
+        \ qu'elle provient d'une mesure cognitive pour apparaître dans cette caté\
+        gorie."
+  - "name": "Biosample"
+    "title":
+      "en": "Biosample"
+      "fr": "Échantillon biologique"
+    "description":
+      "en": "Information comes from a biological sample collected from the participant."
+      "fr": "L'information provient d'un échantillon biolologique prélevé chez le\
+        \ participant."
+  - "name": "Governmental_databases_registries"
+    "title":
+      "en": "Government databases/registries"
+      "fr": "Bases de données gouvernementales/registres"
+    "description":
+      "en": "Information comes from a governmental or hospital database or registry\
+        \ (i.e. death registries, birth registries)."
+      "fr": "L'information provient d'une base de données gouvernementale ou d'un\
+        \ registre (i.e. registre des décès, des naissances.)"
+  - "name": "Other"
+    "title":
+      "en": "Other source of information"
+      "fr": "Autre source d'information"
+    "description":
+      "en": "Information comes from another source, not mentioned before."
+      "fr": "L'information provient d'une autre source, non mentionnée auparavant."
+- "name": "Target"
+  "title":
+    "en": "Target"
+    "fr": "Cible"
+  "description":
+    "en": "Target refers to the person the question is about."
+    "fr": "Cible réfère à la personne ciblée par la question."
+  "terms":
+  - "name": "Participant"
+    "title":
+      "en": "Participant"
+      "fr": "Participant"
+    "description":
+      "en": "Information requested in the question is about the study participant."
+      "fr": "L'information demandée dans la question est au sujet du participant de\
+        \ l'étude."
+  - "name": "Children"
+    "title":
+      "en": "Children"
+      "fr": "Enfants"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s child/children."
+      "fr": "L'information demandée dans la question est au sujet des enfants du participant\
+        \ de l'étude."
+  - "name": "Parents"
+    "title":
+      "en": "Parents"
+      "fr": "Parents"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s parents."
+      "fr": "L'information demandée dans la question est au sujet des parents du participant\
+        \ de l'étude."
+  - "name": "Grandparents"
+    "title":
+      "en": "Grandparents"
+      "fr": "Grand-parents"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s grandparents."
+      "fr": "L'information demandée dans la question est au sujet des grand-parents\
+        \ du participant de l'étude."
+  - "name": "Siblings"
+    "title":
+      "en": "Siblings"
+      "fr": "Fratrie"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s siblings."
+      "fr": "L'information demandée dans la question est au sujet des frères et soeurs\
+        \ du participant de l'étude."
+  - "name": "Partner"
+    "title":
+      "en": "Partner"
+      "fr": "Partenaire"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s partner."
+      "fr": "L'information demandée dans la question est au sujet du partenaire du\
+        \ participant de l'étude."
+  - "name": "Interviewer"
+    "title":
+      "en": "Interviewer"
+      "fr": "Intervieweur"
+    "description":
+      "en": "Information requested in the question is about the study interviewer."
+      "fr": "L'information demandée dans la question est au sujet de l'intervieweur\
+        \ de l'étude."
+  - "name": "Proxy"
+    "title":
+      "en": "Proxy"
+      "fr": "Proxy"
+    "description":
+      "en": "Information requested in the question is about the study participant’\
+        s proxy."
+      "fr": "L'information demandée dans la question est au sujet du proxy du participant\
+        \ de l'étude."
+  - "name": "Other"
+    "title":
+      "en": "Other target"
+      "fr": "Autre cible"
+    "description":
+      "en": "Information requested in the question is about another person (i.e. study\
+        \ participant’s friends)."
+      "fr": "L'information demandée dans la question est au sujet d'une autre personne\
+        \ (p.ex. les amis du participant)."
