@@ -6,7 +6,9 @@
 "description":
   "fr": "Qualification de l'harmonisation par Maelstrom"
   "en": "Harmonization qualification by Maelstrom"
+"attributes": {}
 "author": "Maelstrom Research"
+"keywords": {}
 "license": "CC BY-NC-ND 4.0"
 "vocabularies":
 - "name": "status"
@@ -16,6 +18,8 @@
   "description":
     "fr": "Statut d'harmonisation"
     "en": "Harmonization Status"
+  "attributes": {}
+  "keywords": {}
   "terms":
   - "name": "complete"
     "title":
@@ -24,6 +28,8 @@
     "description":
       "fr": "Le statut d'harmonisation est complet."
       "en": "Harmonization status is complete."
+    "attributes": {}
+    "keywords": {}
   - "name": "undetermined"
     "title":
       "fr": "Indéterminé"
@@ -31,6 +37,8 @@
     "description":
       "fr": "Le statut d'harmonisation est indéterminé (en attente d'information)."
       "en": "Harmonization status is undetermined (information pending)."
+    "attributes": {}
+    "keywords": {}
   - "name": "impossible"
     "title":
       "fr": "Impossible"
@@ -38,6 +46,18 @@
     "description":
       "fr": "Le statut d'harmonisation est impossible."
       "en": "Harmonization status is impossible."
+    "attributes": {}
+    "keywords": {}
+  - "name": "na"
+    "title":
+      "en": "Not Applicable"
+      "fr": "Not Applicable"
+    "description":
+      "en": "Harmonization status is not relevant"
+      "fr": "Not Applicable"
+    "attributes": {}
+    "keywords": {}
+    "terms": []
 - "name": "status_detail"
   "title":
     "fr": "Détail du statut"
@@ -45,6 +65,8 @@
   "description":
     "fr": "Sous-statut d'harmonisation"
     "en": "Harmonization sub-status"
+  "attributes": {}
+  "keywords": {}
   "terms":
   - "name": "identical"
     "title":
@@ -53,13 +75,18 @@
     "description":
       "fr": "Le sous-statut d’harmonisation est qualifié d’information identique."
       "en": "Harmonization sub-status is qualified as identical information."
-  - "name": "unidentical"
+    "attributes": {}
+    "keywords": {}
+  - "name": "compatible"
     "title":
-      "fr": "Non identique"
-      "en": "Unidentical"
+      "en": "Compatible"
+      "fr": "Compatible"
     "description":
-      "fr": "Le sous-statut d’harmonisation est qualifié d’information non identique."
-      "en": "Harmonization sub-status is qualified as unidentical information."
+      "en": "Harmonization sub-status is qualified as compatible information."
+      "fr": "Le sous-statut d’harmonisation est qualifié d'information compatible."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "incompatible"
     "title":
       "fr": "Non compatible"
@@ -68,6 +95,8 @@
       "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
         \    compatible."
       "en": "Harmonization sub-status is qualified as incompatible information."
+    "attributes": {}
+    "keywords": {}
   - "name": "unavailable"
     "title":
       "fr": "Non disponible"
@@ -76,6 +105,8 @@
       "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
         \     disponible."
       "en": "Harmonization sub-status is qualified as unavailable information."
+    "attributes": {}
+    "keywords": {}
   - "name": "undetermined"
     "title":
       "en": "Undetermined"
@@ -83,6 +114,8 @@
     "description":
       "en": "Harmonization sub-status is qualified as undetermined."
       "fr": "Le sous-statut d’harmonisation est qualifié d’indéterminé."
+    "attributes": {}
+    "keywords": {}
 - "name": "comment"
   "title":
     "fr": "Commentaire"
@@ -90,6 +123,8 @@
   "description":
     "fr": "Information supplémentaire à propos de la variable harmonisée."
     "en": "Additional information about the harmonized variable."
+  "attributes": {}
+  "keywords": {}
 - "name": "algorithm"
   "title":
     "fr": "Algorithme"
@@ -97,3 +132,5 @@
   "description":
     "fr": "Algorithme utilisé pour générer la variable harmonisée."
     "en": "Algorithm used to generate the harmonized variable."
+  "attributes": {}
+  "keywords": {}
