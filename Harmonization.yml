@@ -51,10 +51,10 @@
   - "name": "na"
     "title":
       "en": "Not Applicable"
-      "fr": "Not Applicable"
+      "fr": "Ne s'applique pas"
     "description":
-      "en": "Harmonization status is not relevant"
-      "fr": "Not Applicable"
+      "en": "Harmonization status is not relevant."
+      "fr": "Le statut d'harmonisation n'est pas pertinent."
     "attributes": {}
     "keywords": {}
     "terms": []
