@@ -6,8 +6,9 @@
 "description":
   "en": "Additional information about the collected variable"
   "fr": "Informations additionnelles au sujet des variables collectées"
+"attributes": {}
 "author": "Maelstrom Research"
-"license": "CC BY-NC-ND 4.0"
+"keywords": {}
 "vocabularies":
 - "name": "Source"
   "title":
@@ -15,7 +16,10 @@
     "fr": "Source"
   "description":
     "en": "Source refers to the original document/method of data collection."
-    "fr": "Source réfère au document ou à la méthode originale de la collecte de données."
+    "fr": "Source réfère au document ou à la méthode originale de la collecte de donné\
+      es."
+  "attributes": {}
+  "keywords": {}
   "terms":
   - "name": "Questionnaire"
     "title":
@@ -26,6 +30,9 @@
         \ or administrated by an interviewer."
       "fr": "L'information était collectée par questionnaire, soit auto-administré\
         , soit administré par un intervieweur."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Physical_measure"
     "title":
       "en": "Physical measure"
@@ -37,6 +44,9 @@
       "fr": "L'information était mesurée plutôt que rapportée par le participant.\
         \ Elle peut apparaître dans un questionnaire mais il faut une indication claire\
         \ qu'elle provient d'une mesure physique pour apparaître dans cette catégorie."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Cognitive_measure"
     "title":
       "en": "Cognitive measure"
@@ -49,6 +59,9 @@
         \ Elle peut apparaître dans un questionnaire mais il faut une indication claire\
         \ qu'elle provient d'une mesure cognitive pour apparaître dans cette caté\
         gorie."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Biosample"
     "title":
       "en": "Biosample"
@@ -57,6 +70,9 @@
       "en": "Information comes from a biological sample collected from the participant."
       "fr": "L'information provient d'un échantillon biolologique prélevé chez le\
         \ participant."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Governmental_databases_registries"
     "title":
       "en": "Government databases/registries"
@@ -66,6 +82,9 @@
         \ (i.e. death registries, birth registries)."
       "fr": "L'information provient d'une base de données gouvernementale ou d'un\
         \ registre (i.e. registre des décès, des naissances.)"
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Other"
     "title":
       "en": "Other source of information"
@@ -73,6 +92,9 @@
     "description":
       "en": "Information comes from another source, not mentioned before."
       "fr": "L'information provient d'une autre source, non mentionnée auparavant."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
 - "name": "Target"
   "title":
     "en": "Target"
@@ -80,6 +102,8 @@
   "description":
     "en": "Target refers to the person the question is about."
     "fr": "Cible réfère à la personne ciblée par la question."
+  "attributes": {}
+  "keywords": {}
   "terms":
   - "name": "Participant"
     "title":
@@ -89,6 +113,9 @@
       "en": "Information requested in the question is about the study participant."
       "fr": "L'information demandée dans la question est au sujet du participant de\
         \ l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Children"
     "title":
       "en": "Children"
@@ -98,6 +125,9 @@
         s child/children."
       "fr": "L'information demandée dans la question est au sujet des enfants du participant\
         \ de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Parents"
     "title":
       "en": "Parents"
@@ -107,6 +137,9 @@
         s parents."
       "fr": "L'information demandée dans la question est au sujet des parents du participant\
         \ de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Grandparents"
     "title":
       "en": "Grandparents"
@@ -116,6 +149,9 @@
         s grandparents."
       "fr": "L'information demandée dans la question est au sujet des grand-parents\
         \ du participant de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Siblings"
     "title":
       "en": "Siblings"
@@ -125,6 +161,9 @@
         s siblings."
       "fr": "L'information demandée dans la question est au sujet des frères et soeurs\
         \ du participant de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Partner"
     "title":
       "en": "Partner"
@@ -134,6 +173,9 @@
         s partner."
       "fr": "L'information demandée dans la question est au sujet du partenaire du\
         \ participant de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Interviewer"
     "title":
       "en": "Interviewer"
@@ -142,6 +184,9 @@
       "en": "Information requested in the question is about the study interviewer."
       "fr": "L'information demandée dans la question est au sujet de l'intervieweur\
         \ de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Proxy"
     "title":
       "en": "Proxy"
@@ -151,6 +196,9 @@
         s proxy."
       "fr": "L'information demandée dans la question est au sujet du proxy du participant\
         \ de l'étude."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "Other"
     "title":
       "en": "Other target"
@@ -160,3 +208,6 @@
         \ participant’s friends)."
       "fr": "L'information demandée dans la question est au sujet d'une autre personne\
         \ (p.ex. les amis du participant)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
