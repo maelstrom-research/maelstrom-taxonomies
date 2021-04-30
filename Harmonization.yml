@@ -1,53 +1,65 @@
 !!org.obiba.opal.core.domain.taxonomy.Taxonomy
 "name": "Mlstr_harmo"
 "title":
-  "fr": "Harmonisation"
   "en": "Harmonization"
+  "fr": "Harmonisation"
 "description":
-  "fr": "Qualification de l'harmonisation par Maelstrom"
   "en": "Harmonization qualification by Maelstrom"
+  "fr": "Qualification de l'harmonisation par Maelstrom"
 "attributes": {}
 "author": "Maelstrom Research"
 "keywords": {}
-"license": "CC BY-NC-ND 4.0"
 "vocabularies":
 - "name": "status"
   "title":
-    "fr": "Statut d'harmonisation"
     "en": "Harmonization Status"
+    "fr": "Statut d'harmonisation"
   "description":
-    "fr": "Statut d'harmonisation"
     "en": "Harmonization Status"
+    "fr": "Statut d'harmonisation"
   "attributes": {}
   "keywords": {}
   "terms":
   - "name": "complete"
     "title":
-      "fr": "Complet"
       "en": "Complete"
+      "fr": "Complet"
     "description":
-      "fr": "Le statut d'harmonisation est complet."
       "en": "Harmonization status is complete."
+      "fr": "Le statut d'harmonisation est complet."
     "attributes": {}
     "keywords": {}
+    "terms": []
   - "name": "undetermined"
     "title":
-      "fr": "Indéterminé"
       "en": "Undetermined"
+      "fr": "Indéterminé"
     "description":
-      "fr": "Le statut d'harmonisation est indéterminé (en attente d'information)."
       "en": "Harmonization status is undetermined (information pending)."
+      "fr": "Le statut d'harmonisation est indéterminé (en attente d'information)."
     "attributes": {}
     "keywords": {}
+    "terms": []
   - "name": "impossible"
     "title":
-      "fr": "Impossible"
       "en": "Impossible"
+      "fr": "Impossible"
     "description":
-      "fr": "Le statut d'harmonisation est impossible."
       "en": "Harmonization status is impossible."
+      "fr": "Le statut d'harmonisation est impossible."
     "attributes": {}
     "keywords": {}
+    "terms": []
+  - "name": "partial"
+    "title":
+      "en": "Partial"
+      "fr": "Partiel"
+    "description":
+      "en": "Harmonization status is partial."
+      "fr": "Le statut de l'harmonisation est partiel."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "na"
     "title":
       "en": "Not Applicable"
@@ -60,23 +72,24 @@
     "terms": []
 - "name": "status_detail"
   "title":
-    "fr": "Détail du statut"
     "en": "Status Detail"
+    "fr": "Détail du statut"
   "description":
-    "fr": "Sous-statut d'harmonisation"
     "en": "Harmonization sub-status"
+    "fr": "Sous-statut d'harmonisation"
   "attributes": {}
   "keywords": {}
   "terms":
   - "name": "identical"
     "title":
-      "fr": "Identique"
       "en": "Identical"
+      "fr": "Identique"
     "description":
-      "fr": "Le sous-statut d’harmonisation est qualifié d’information identique."
       "en": "Harmonization sub-status is qualified as identical information."
+      "fr": "Le sous-statut d’harmonisation est qualifié d’information identique."
     "attributes": {}
     "keywords": {}
+    "terms": []
   - "name": "compatible"
     "title":
       "en": "Compatible"
@@ -89,24 +102,26 @@
     "terms": []
   - "name": "incompatible"
     "title":
-      "fr": "Non compatible"
       "en": "Incompatible"
+      "fr": "Non compatible"
     "description":
+      "en": "Harmonization sub-status is qualified as incompatible information."
       "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
         \    compatible."
-      "en": "Harmonization sub-status is qualified as incompatible information."
     "attributes": {}
     "keywords": {}
+    "terms": []
   - "name": "unavailable"
     "title":
-      "fr": "Non disponible"
       "en": "Unavailable"
+      "fr": "Non disponible"
     "description":
+      "en": "Harmonization sub-status is qualified as unavailable information."
       "fr": "Le sous-statut d’harmonisation est qualifié d’information non       \
         \     disponible."
-      "en": "Harmonization sub-status is qualified as unavailable information."
     "attributes": {}
     "keywords": {}
+    "terms": []
   - "name": "undetermined"
     "title":
       "en": "Undetermined"
@@ -116,21 +131,24 @@
       "fr": "Le sous-statut d’harmonisation est qualifié d’indéterminé."
     "attributes": {}
     "keywords": {}
+    "terms": []
 - "name": "comment"
   "title":
-    "fr": "Commentaire"
     "en": "Comment"
+    "fr": "Commentaire"
   "description":
-    "fr": "Information supplémentaire à propos de la variable harmonisée."
     "en": "Additional information about the harmonized variable."
+    "fr": "Information supplémentaire à propos de la variable harmonisée."
   "attributes": {}
   "keywords": {}
+  "terms": []
 - "name": "algorithm"
   "title":
-    "fr": "Algorithme"
     "en": "Algorithm"
+    "fr": "Algorithme"
   "description":
-    "fr": "Algorithme utilisé pour générer la variable harmonisée."
     "en": "Algorithm used to generate the harmonized variable."
+    "fr": "Algorithme utilisé pour générer la variable harmonisée."
   "attributes": {}
   "keywords": {}
+  "terms": []
