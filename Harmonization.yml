@@ -9,6 +9,7 @@
 "attributes": {}
 "author": "Maelstrom Research"
 "keywords": {}
+"license": "CC BY 4.0"
 "vocabularies":
 - "name": "status"
   "title":
@@ -129,6 +130,30 @@
     "description":
       "en": "Harmonization sub-status is qualified as undetermined."
       "fr": "Le sous-statut d’harmonisation est qualifié d’indéterminé."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "proximate"
+    "title":
+      "en": "Proximate"
+    "description":
+      "en": "Harmonization sub-status is qualified as proximately equivalent information."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "tentative"
+    "title":
+      "en": "Tentative"
+    "description":
+      "en": "Harmonization sub-status is qualified as tentatively equivalent information."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "not_applicable"
+    "title":
+      "en": "Not applicable"
+    "description":
+      "en": "Harmonization sub-status is qualified as not applicable information."
     "attributes": {}
     "keywords": {}
     "terms": []
