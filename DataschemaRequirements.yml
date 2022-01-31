@@ -1,0 +1,92 @@
+!!org.obiba.opal.core.domain.taxonomy.Taxonomy
+"name": "dataschema_requirements"
+"title":
+  "en": "Dataschema Requirements"
+"description": {}
+"attributes": {}
+"keywords": {}
+"vocabularies":
+- "name": "targeted_time_period"
+  "title":
+    "en": "Targeted Time Period"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "source"
+  "title":
+    "en": "Source"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "informant"
+  "title":
+    "en": "Informant"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "time_of_collection"
+  "title":
+    "en": "Time of Collection"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "wording"
+  "title":
+    "en": "Wording"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "measures"
+  "title":
+    "en": "Measures"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "procedures"
+  "title":
+    "en": "Procedures"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "specific_instructions"
+  "title":
+    "en": "Specific Instructions"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "additional_information"
+  "title":
+    "en": "Additional Informatiuon"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "study_specific_information"
+  "title":
+    "en": "Study Specific Information"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "rule_category"
+  "title":
+    "en": "Rule Category"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "targeted_entity"
+  "title":
+    "en": "Targeted Entity"
+  "description": {}
+  "attributes": {}
+  "keywords": {}
+  "terms": []
