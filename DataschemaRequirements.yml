@@ -1,85 +1,109 @@
 !!org.obiba.opal.core.domain.taxonomy.Taxonomy
-"name": "dataschema_requirements"
+"name": "Mlstr_dataschema"
 "title":
   "en": "Dataschema Requirements"
 "description": {}
 "attributes": {}
 "keywords": {}
 "vocabularies":
-- "name": "targeted_time_period"
+- "name": "other_format"
   "title":
-    "en": "Targeted Time Period"
-  "description": {}
+    "en": "Other Format"
+  "description":
+    "en": "For any other type of format,  (e.g., date, time of day, postal codes digits,\
+      \ ID), relevent information about the variable format."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "individual_entity"
+  "title":
+    "en": "Individual Entity"
+  "description":
+    "en": "Individual (or entity) that the variable is about (e.g., participant, sample,\
+      \ postal code)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "time_period"
+  "title":
+    "en": "Time Period"
+  "description":
+    "en": "Time period that the variable refers to (or is about) (e.g., first trimester\
+      \ of pregnancy, last 30 days, at birth)."
   "attributes": {}
   "keywords": {}
   "terms": []
 - "name": "source"
   "title":
     "en": "Source"
-  "description": {}
+  "description":
+    "en": "Acceptable source of information (e.g., questionnaire, governmental databases/registries,\
+      \ etc.) from which the variable data can be extracted."
   "attributes": {}
   "keywords": {}
   "terms": []
 - "name": "informant"
   "title":
     "en": "Informant"
-  "description": {}
+  "description":
+    "en": "For information that can be provided by different persons, acceptable informant\
+      \ (e.g. participant, partner, proxy)."
   "attributes": {}
   "keywords": {}
   "terms": []
-- "name": "time_of_collection"
+- "name": "time_collection"
   "title":
-    "en": "Time of Collection"
-  "description": {}
+    "en": "Time Collection"
+  "description":
+    "en": "Acceptable time of collection of the information (e.g., smoking status\
+      \ during first trimester of pregnancy can be collected at birth)."
   "attributes": {}
   "keywords": {}
   "terms": []
 - "name": "wording"
   "title":
     "en": "Wording"
-  "description": {}
+  "description":
+    "en": "For data extracted from questionnaires, acceptable question wording (e.g.,\
+      \ binge drinking defined as 5 drinks or more)."
   "attributes": {}
   "keywords": {}
   "terms": []
 - "name": "measures"
   "title":
     "en": "Measures"
-  "description": {}
+  "description":
+    "en": "For data that can be measured using different tools/devices, acceptable\
+      \ tool or device (e.g. GAD-7, PHQ-9, mercury-gravity manometer, etc.)."
   "attributes": {}
   "keywords": {}
   "terms": []
 - "name": "procedures"
   "title":
     "en": "Procedures"
-  "description": {}
+  "description":
+    "en": "For data that can be generated using different procedures, acceptable procedures\
+      \ (e.g., weight needs to be measured, not reported by the participant)."
   "attributes": {}
   "keywords": {}
   "terms": []
-- "name": "specific_instructions"
+- "name": "instructions"
   "title":
-    "en": "Specific Instructions"
-  "description": {}
+    "en": "Instructions"
+  "description":
+    "en": "For variables to be generated using specific standards or instructions\
+      \ description of the conditions to be respected (e.g., ICD-10 must be used,\
+      \ prematurity defined as birth before 37 weeks of pregnancy according to a given\
+      \ reference, specific information related to management of unique or multiple\
+      \ choice options, etc)."
   "attributes": {}
   "keywords": {}
   "terms": []
-- "name": "additional_information"
+- "name": "comments"
   "title":
-    "en": "Additional Informatiuon"
-  "description": {}
-  "attributes": {}
-  "keywords": {}
-  "terms": []
-- "name": "rule_category"
-  "title":
-    "en": "Rule Category"
-  "description": {}
-  "attributes": {}
-  "keywords": {}
-  "terms": []
-- "name": "targeted_entity"
-  "title":
-    "en": "Targeted Individual/Entity"
-  "description": {}
+    "en": "Comments"
+  "description":
+    "en": "Any additional information not covered elsewhere."
   "attributes": {}
   "keywords": {}
   "terms": []

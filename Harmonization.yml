@@ -9,15 +9,14 @@
 "attributes": {}
 "author": "Maelstrom Research"
 "keywords": {}
-"license": "CC BY 4.0"
 "vocabularies":
-- "name": "status"
+- "name": "harmo_status"
   "title":
     "en": "Harmonization Status"
     "fr": "Statut d'harmonisation"
   "description":
-    "en": "Harmonization Status"
-    "fr": "Statut d'harmonisation"
+    "en": "Harmonization status of the study DS variable."
+    "fr": "État d'harmonisation de la variable DS de l'étude."
   "attributes": {}
   "keywords": {}
   "terms":
@@ -71,13 +70,13 @@
     "attributes": {}
     "keywords": {}
     "terms": []
-- "name": "status_detail"
+- "name": "harmo_status_detail"
   "title":
     "en": "Status Detail"
     "fr": "Détail du statut"
   "description":
-    "en": "Harmonization sub-status"
-    "fr": "Sous-statut d'harmonisation"
+    "en": "Harmonization status detail of the study DS variable. "
+    "fr": "Détail de l'état d'harmonisation de la variable DS de l'étude."
   "attributes": {}
   "keywords": {}
   "terms":
@@ -133,47 +132,160 @@
     "attributes": {}
     "keywords": {}
     "terms": []
-  - "name": "proximate"
-    "title":
-      "en": "Proximate"
-    "description":
-      "en": "Harmonization sub-status is qualified as proximately equivalent information."
-    "attributes": {}
-    "keywords": {}
-    "terms": []
-  - "name": "tentative"
-    "title":
-      "en": "Tentative"
-    "description":
-      "en": "Harmonization sub-status is qualified as tentatively equivalent information."
-    "attributes": {}
-    "keywords": {}
-    "terms": []
-  - "name": "not_applicable"
-    "title":
-      "en": "Not applicable"
-    "description":
-      "en": "Harmonization sub-status is qualified as not applicable information."
-    "attributes": {}
-    "keywords": {}
-    "terms": []
-- "name": "comment"
+- "name": "harmo_comment"
   "title":
-    "en": "Comment"
-    "fr": "Commentaire"
+    "en": "Harmonization Comment"
+    "fr": "Commentaire d'harmonisation"
   "description":
-    "en": "Additional information about the harmonized variable."
-    "fr": "Information supplémentaire à propos de la variable harmonisée."
+    "en": "Any additional relevant information on the study variables used to generate\
+      \ the DS variable and to be documented online."
+    "fr": "Toute information supplémentaire pertinente sur les variables de l'étude\
+      \ utilisées pour générer la variable DS et à documenter en ligne."
   "attributes": {}
   "keywords": {}
   "terms": []
-- "name": "algorithm"
+- "name": "harmo_rule"
   "title":
-    "en": "Algorithm"
-    "fr": "Algorithme"
+    "en": "Harmonization Rule"
+    "fr": "Règle d'harmonisation"
   "description":
-    "en": "Algorithm used to generate the harmonized variable."
-    "fr": "Algorithme utilisé pour générer la variable harmonisée."
+    "en": "Algorithms to be used to generate the study harmonized variable."
+    "fr": "Algorithmes à utiliser pour générer la variable harmonisée de l'étude."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "rule_category"
+  "title":
+    "en": "Rule Category"
+  "description":
+    "en": "Type of data harmonization processing to be used to generate the study\
+      \ harmonized variable."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "comment"
+  "title":
+    "en": "Comment"
+  "description":
+    "en": "Internal comments or questions to the team members to help or document\
+      \ the harmonization process and decisions."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "keywords"
+  "title":
+    "en": "Keywords"
+  "description":
+    "en": "Any information related to the wording, measures or procedures that needs\
+      \ to be specified to estimate the harmonization status :\nWording: acceptable\
+      \ or required information from questionnaires to support understanding of the\
+      \ study variable(s).\nMeasures: acceptable or required information for study\
+      \ variable(s) measured using different tools/devices, acceptable tool or device\
+      \ (e.g. GAD-7,PHQ-9, mercury-gravity manometer (Exhibit 2), etc.).\nProcedures:\
+      \ acceptable or required information on different procedures used to collect\
+      \ the study variable(s) (e.g., weight needs to be measured, not reported by\
+      \ the participant). \nInstructions: acceptable or required infomation on specific\
+      \ standard or instructions used to collect the study variable(s) (e.g. ICD-10,\
+      \ ISCED, prematurity defined before 37 weeks of pregnancy according to a given\
+      \ reference)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "source_information"
+  "title":
+    "en": "Source of Information"
+  "description":
+    "en": "Acceptable source of information (e.g.,  questionnaire, governmental databases/registries,\
+      \ biosample, etc.)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "informant"
+  "title":
+    "en": "Informant"
+  "description":
+    "en": "For information that can be provided by different persons, acceptable informant\
+      \ (e.g. participant, partner, proxy)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "time_period"
+  "title":
+    "en": "Time Period"
+  "description":
+    "en": "Time period targeted by the study variable(s) (e.g., first trimester of\
+      \ pregnancy, last 30 days, at birth)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "time_collection"
+  "title":
+    "en": "Time of Collection"
+  "description":
+    "en": "Time of collection of the study  variable(s) (e.g., smoking status during\
+      \ first trimester of pregnancy can be collected at birth)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "dataschema_table"
+  "title":
+    "en": "DataSchema Table"
+  "description":
+    "en": "Name of the study DataSchema."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "dataschema_variable"
+  "title":
+    "en": "DataSchema Variable"
+  "description":
+    "en": "Name of the DataSchema variable."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "study"
+  "title":
+    "en": "Study"
+  "description":
+    "en": "Acronym of the study."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "study_table"
+  "title":
+    "en": "Study Table"
+  "description":
+    "en": "Name of the study dataset to be used to generate the DS variables."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "study_variables"
+  "title":
+    "en": "Study Variables"
+  "description":
+    "en": "Name of the study variable(s) to be used to generate the DS variable."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "study_format"
+  "title":
+    "en": "Study Format"
+  "description":
+    "en": "Any information related to the format of the study  variable (s) :\nValue\
+      \ type :type of study  variable(s) (e.g., boolean, binary, date, datetime, time,\
+      \ decimal, integer, text)\nUnits : for relevant decimal, integer and text variables\
+      \ (e.g., height, age), units of the study  variable(s) (e.g., cm, years).\n\
+      Categories : categories of the study  variable(s) as defined in the study questionnaires/data\
+      \ dictionary.\nOther:  other types of formatting information, e.g., date as\
+      \ yyy-mm-dd"
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "index"
+  "title":
+    "en": "Index"
+  "description":
+    "en": "Position of the data processing element in the harmonization process."
   "attributes": {}
   "keywords": {}
   "terms": []
