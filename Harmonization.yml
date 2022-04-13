@@ -10,7 +10,7 @@
 "author": "Maelstrom Research"
 "keywords": {}
 "vocabularies":
-- "name": "harmo_status"
+- "name": "status"
   "title":
     "en": "Harmonization Status"
     "fr": "Statut d'harmonisation"
@@ -70,7 +70,7 @@
     "attributes": {}
     "keywords": {}
     "terms": []
-- "name": "harmo_status_detail"
+- "name": "status_detail"
   "title":
     "en": "Status Detail"
     "fr": "Détail du statut"
@@ -132,7 +132,7 @@
     "attributes": {}
     "keywords": {}
     "terms": []
-- "name": "harmo_comment"
+- "name": "comment"
   "title":
     "en": "Harmonization Comment"
     "fr": "Commentaire d'harmonisation"
@@ -144,7 +144,7 @@
   "attributes": {}
   "keywords": {}
   "terms": []
-- "name": "harmo_rule"
+- "name": "algorithm"
   "title":
     "en": "Harmonization Rule"
     "fr": "Règle d'harmonisation"
