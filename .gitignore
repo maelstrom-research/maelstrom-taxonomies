@@ -1,0 +1,10 @@
+.idea
+*.iml
+.tmp
+.DS_Store
+*.log
+.work
+.vscode
+**/.attach_pid*
+.history
+*.log
