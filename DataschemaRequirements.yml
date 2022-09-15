@@ -1,0 +1,44 @@
+!!org.obiba.opal.core.domain.taxonomy.Taxonomy
+"name": "Mlstr_dataschema"
+"title":
+  "en": "Dataschema Requirements"
+"description": {}
+"attributes": {}
+"keywords": {}
+"vocabularies":
+- "name": "other_format"
+  "title":
+    "en": "Other Format"
+  "description":
+    "en": "For any other type of format,  (e.g., date, time of day, postal codes digits,\
+      \ ID), relevent information about the variable format."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "individual_entity"
+  "title":
+    "en": "Individual Entity"
+  "description":
+    "en": "Individual (or entity) that the variable is about (e.g., participant, sample,\
+      \ postal code)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "time_period"
+  "title":
+    "en": "Time Period"
+  "description":
+    "en": "Time period that the variable refers to (or is about) (e.g., first trimester\
+      \ of pregnancy, last 30 days, at birth)."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
+- "name": "source"
+  "title":
+    "en": "Source"
+  "description":
+    "en": "Acceptable source of information (e.g., questionnaire, governmental databases/registries,\
+      \ etc.) from which the variable data can be extracted."
+  "attributes": {}
+  "keywords": {}
+  "terms": []
