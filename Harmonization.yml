@@ -100,6 +100,26 @@
     "attributes": {}
     "keywords": {}
     "terms": []
+  - "name": "proximate"
+    "title":
+      "en": "Proximate"
+      "fr": "Proximal"
+    "description":
+      "en": "Harmonization sub-status is qualified as proximate information."
+      "fr": "Le sous-statut d’harmonisation est qualifié d'information proximal."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "tentative"
+    "title":
+      "en": "Tentative"
+      "fr": "Tentative"
+    "description":
+      "en": "Harmonization sub-status is qualified as tentative information."
+      "fr": "Le sous-statut d’harmonisation est qualifié d'information tentative."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
   - "name": "incompatible"
     "title":
       "en": "Incompatible"
